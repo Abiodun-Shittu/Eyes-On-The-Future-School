@@ -11,6 +11,7 @@
 :root {
     --color-primary: #068a9c;
     --color-secondary: #f86435;
+    --color-bg: #d44a1e;
     --color-white: #fff;
     --color-black: #000;
     --container-width-lg: 80%;
@@ -101,4 +102,55 @@ nav {
     line-height: 17px;
     font-size: 18px;
     font-weight: 500;
+}
+
+
+/* ================ Header Section =============== */
+
+header {
+    width: 100vw;
+    height: 574px;
+    top: 269px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__left {
+    width: 600px;
+    height: 242px;
+}
+
+.header__left h1 {
+    height: 114px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.header__left p {
+    height: 98px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 23px;
+    margin-top: 2rem;
+}
+
+.header__button {
+    position: absolute;
+    width: 246px;
+    height: 62px;
+    margin-top: 2rem;
+    border-radius: 80px;
+    background: var(--color-bg);
+    font-size: 24px;
+    line-height: 23px;
+    font-weight: 300;
+    color: var(--color-white);
+}
+
+.image1 {
+    margin-top: 0;
 }
